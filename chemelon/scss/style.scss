@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Sora', sans-serif;
+}
+
+// page base -----------
+@import "base/variable";
+// page layout-----------
+@import "layout/first-section";
+@import "layout/header";
+@import "layout/second_section";
+@import "layout/about";
+@import "layout/services";
+@import "layout/pricing";
+@import "layout/customer";
+@import "layout/footer";

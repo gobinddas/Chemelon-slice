@@ -1,0 +1,384 @@
+.two {
+    background-image: url(/img/map-outsourcing.svg);
+    .container2-content {
+        display: flex;
+        justify-content: center;
+        .inner-layout {
+            width: 80%;
+            margin: 100px 0px 100px 0px;
+            display: flex;
+            justify-content: space-between;
+            // gap: 300px;
+            .flex-item1 {
+                width: 50%;
+                h1 {
+                    font-size: 50px;
+                    font-weight: 500;
+                    color: $primary-color;
+                }
+                p {
+                    line-height: 45px;
+                    font-size: 22px;
+                    color: $secondary-color;
+                    margin: 45px 0px 45px 0px;
+                }
+                button {
+                    font-size: 20px;
+                    color: white;
+                    padding: 10px 20px 10px 20px;
+                    border: none;
+                    border-radius: 10px;
+                    background-image: linear-gradient(to right, #04FF86, #006CFF);
+                }
+            }
+            .flex-item2 {
+                width: 30%;
+                .cost {
+                    display: flex;
+                    justify-content: space-between;
+                    margin-bottom: 60px;
+                    gap: 80px;
+                    .cost-img {
+                        img {
+                            width: 50px;
+                        }
+                    }
+                    .cost-content {
+                        h1 {
+                            margin-bottom: 20px;
+                            font-size: 22px;
+                            font-weight: 500;
+                        }
+                        p {
+                            color: $secondary-color;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 1550-------
+@media only screen and (max-width:1550px) {
+    .two {
+        background-image: url(/img/map-outsourcing.svg);
+        .container2-content {
+            display: flex;
+            justify-content: center;
+            .inner-layout {
+                width: 80%;
+                margin: 100px 0px 100px 0px;
+                display: flex;
+                justify-content: space-between;
+                // gap: 300px;
+                .flex-item1 {
+                    width: 50%;
+                    h1 {
+                        font-size: 45px;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+                    p {
+                        line-height: 40px;
+                        font-size: 22px;
+                        color: $secondary-color;
+                        margin: 45px 0px 45px 0px;
+                    }
+                    button {
+                        font-size: 20px;
+                        color: white;
+                        padding: 10px 20px 10px 20px;
+                        border: none;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .flex-item2 {
+                    width: 30%;
+                    .cost {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 60px;
+                        gap: 50px;
+                        .cost-img {
+                            img {
+                                width: 50px;
+                            }
+                        }
+                        .cost-content {
+                            h1 {
+                                margin-bottom: 20px;
+                                font-size: 22px;
+                                font-weight: 500;
+                            }
+                            p {
+                                color: $secondary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 1400-------
+@media only screen and (max-width:1400px) {
+    .two {
+        background-image: url(/img/map-outsourcing.svg);
+        .container2-content {
+            display: flex;
+            justify-content: center;
+            .inner-layout {
+                width: 80%;
+                margin: 100px 0px 100px 0px;
+                display: flex;
+                justify-content: space-between;
+                // gap: 300px;
+                .flex-item1 {
+                    width: 50%;
+                    h1 {
+                        font-size: 40px;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+                    p {
+                        line-height: 40px;
+                        font-size: 22px;
+                        color: $secondary-color;
+                        margin: 45px 0px 45px 0px;
+                    }
+                    button {
+                        font-size: 20px;
+                        color: white;
+                        padding: 10px 20px 10px 20px;
+                        border: none;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .flex-item2 {
+                    width: 40%;
+                    .cost {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 60px;
+                        gap: 35px;
+                        .cost-img {
+                            img {
+                                width: 50px;
+                            }
+                        }
+                        .cost-content {
+                            h1 {
+                                margin-bottom: 20px;
+                                font-size: 22px;
+                                font-weight: 500;
+                            }
+                            p {
+                                color: $secondary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 1050-------
+@media only screen and (max-width:1050px) {
+    .two {
+        background-image: url(/img/map-outsourcing.svg);
+        .container2-content {
+            display: flex;
+            justify-content: center;
+            .inner-layout {
+                width: 80%;
+                margin: 100px 0px 100px 0px;
+                display: flex;
+                justify-content: space-between;
+                // gap: 300px;
+                .flex-item1 {
+                    width: 50%;
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+                    p {
+                        line-height: 31px;
+                        font-size: 20px;
+                        color: $secondary-color;
+                        margin: 30px 0px 30px 0px;
+                    }
+                    button {
+                        font-size: 20px;
+                        color: white;
+                        padding: 10px 20px 10px 20px;
+                        border: none;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .flex-item2 {
+                    width: 40%;
+                    .cost {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 26px;
+                        gap: 26px;
+                        .cost-img {
+                            img {
+                                width: 40px;
+                            }
+                        }
+                        .cost-content {
+                            h1 {
+                                margin-bottom: 10px;
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+                            p {
+                                color: $secondary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 950-------
+@media only screen and (max-width:950px) {
+    .two {
+        background-image: url(/img/map-outsourcing.svg);
+        .container2-content {
+            display: flex;
+            justify-content: center;
+            .inner-layout {
+                width: 80%;
+                margin: 100px 0px 100px 0px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                // gap: 300px;
+                .flex-item1 {
+                    width: 100%;
+                    h1 {
+                        font-size: 30px;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+                    p {
+                        line-height: 31px;
+                        font-size: 20px;
+                        color: $secondary-color;
+                        margin: 30px 0px 30px 0px;
+                    }
+                    button {
+                        font-size: 20px;
+                        color: white;
+                        padding: 10px 20px 10px 20px;
+                        border: none;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .flex-item2 {
+                    width: 100%;
+                    margin-top: 50px;
+                    .cost {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 26px;
+                        gap: 26px;
+                        .cost-img {
+                            img {
+                                width: 40px;
+                            }
+                        }
+                        .cost-content {
+                            h1 {
+                                margin-bottom: 10px;
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+                            p {
+                                color: $secondary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 450-------
+@media only screen and (max-width:450px) {
+    .two {
+        background-image: url(/img/map-outsourcing.svg);
+        .container2-content {
+            display: flex;
+            justify-content: center;
+            .inner-layout {
+                width: 80%;
+                margin: 100px 0px 100px 0px;
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                // gap: 300px;
+                .flex-item1 {
+                    width: 100%;
+                    h1 {
+                        font-size: 24px;
+                        font-weight: 500;
+                        color: $primary-color;
+                    }
+                    p {
+                        line-height: 26px;
+                        font-size: 18px;
+                        color: $secondary-color;
+                        margin: 30px 0px 30px 0px;
+                    }
+                    button {
+                        font-size: 16px;
+                        color: white;
+                        padding: 8px 15px 8px 15px;
+                        border: none;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .flex-item2 {
+                    width: 100%;
+                    margin-top: 50px;
+                    .cost {
+                        display: flex;
+                        justify-content: space-between;
+                        margin-bottom: 26px;
+                        gap: 26px;
+                        .cost-img {
+                            img {
+                                width: 40px;
+                            }
+                        }
+                        .cost-content {
+                            h1 {
+                                margin-bottom: 10px;
+                                font-size: 20px;
+                                font-weight: 500;
+                            }
+                            p {
+                                color: $secondary-color;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

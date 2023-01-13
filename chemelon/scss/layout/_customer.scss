@@ -1,0 +1,285 @@
+.customer {
+    background-image: linear-gradient(95.69deg, #006CFF 3.55%, #04FF86 67.41%);
+    margin: 100px 0px 100px 0px;
+    padding: 10px 0px 100px 0px;
+    h1 {
+        font-size: 40px;
+        text-align: center;
+        color: white;
+        font-weight: 450;
+        padding: 50px 0px 50px 0px;
+    }
+    .customer-flex-container {
+        display: flex;
+        justify-content: space-between;
+        gap: 150px;
+        .customer-flex-item {
+            padding: 20px 20px 20px 20px;
+            background-color: white;
+            .flex-inner {
+                display: flex;
+                align-items: center;
+                .img {
+                    margin-right: 20px;
+                    img {}
+                }
+                .content {
+                    h3 {
+                        font-weight: 450;
+                    }
+                    .star {
+                        img {}
+                    }
+                }
+            }
+            p {
+                margin-top: 20px;
+                color: $secondary-color;
+                font-size: 16px;
+                line-height: 26px;
+            }
+        }
+        .flex-item1 {
+            border-radius: 0px 20px 20px 0px;
+        }
+        .flex-item2 {
+            border-radius: 20px 20px 20px 20px;
+        }
+        .flex-item3 {
+            border-radius: 20px 0px 0px 20px;
+        }
+    }
+}
+
+// ---for screen size 1400-------
+@media only screen and (max-width:1400px) {
+    .customer {
+        background-image: linear-gradient(95.69deg, #006CFF 3.55%, #04FF86 67.41%);
+        margin: 100px 0px 100px 0px;
+        padding: 10px 0px 100px 0px;
+        h1 {
+            font-size: 40px;
+            text-align: center;
+            color: white;
+            font-weight: 450;
+            padding: 50px 0px 50px 0px;
+        }
+        .customer-flex-container {
+            display: flex;
+            justify-content: space-between;
+            gap: 50px;
+            .customer-flex-item {
+                padding: 20px 20px 20px 20px;
+                background-color: white;
+                .flex-inner {
+                    display: flex;
+                    align-items: center;
+                    .img {
+                        margin-right: 20px;
+                        img {}
+                    }
+                    .content {
+                        h3 {
+                            font-weight: 450;
+                        }
+                        .star {
+                            img {}
+                        }
+                    }
+                }
+                p {
+                    margin-top: 20px;
+                    color: $secondary-color;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+            .flex-item1 {
+                border-radius: 0px 20px 20px 0px;
+            }
+            .flex-item2 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item3 {
+                border-radius: 20px 0px 0px 20px;
+            }
+        }
+    }
+}
+
+// ---for screen size 950-------
+@media only screen and (max-width:950px) {
+    .customer {
+        background-image: linear-gradient(95.69deg, #006CFF 3.55%, #04FF86 67.41%);
+        margin: 100px 0px 100px 0px;
+        padding: 10px 0px 100px 0px;
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            font-weight: 450;
+            padding: 50px 0px 50px 0px;
+        }
+        .customer-flex-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            .customer-flex-item {
+                padding: 20px 20px 20px 20px;
+                background-color: white;
+                width: 500px;
+                .flex-inner {
+                    display: flex;
+                    align-items: center;
+                    .img {
+                        margin-right: 20px;
+                        img {}
+                    }
+                    .content {
+                        h3 {
+                            font-weight: 450;
+                        }
+                        .star {
+                            img {}
+                        }
+                    }
+                }
+                p {
+                    margin-top: 20px;
+                    color: $secondary-color;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+            .flex-item1 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item2 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item3 {
+                border-radius: 20px 20px 20px 20px;
+            }
+        }
+    }
+}
+
+// ---for screen size 650-------
+@media only screen and (max-width:650px) {
+    .customer {
+        background-image: linear-gradient(95.69deg, #006CFF 3.55%, #04FF86 67.41%);
+        margin: 100px 0px 100px 0px;
+        padding: 10px 0px 100px 0px;
+        h1 {
+            font-size: 30px;
+            text-align: center;
+            color: white;
+            font-weight: 450;
+            padding: 50px 0px 50px 0px;
+        }
+        .customer-flex-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            .customer-flex-item {
+                padding: 20px 20px 20px 20px;
+                background-color: white;
+                width: 300px;
+                .flex-inner {
+                    display: flex;
+                    align-items: center;
+                    .img {
+                        margin-right: 20px;
+                        img {}
+                    }
+                    .content {
+                        h3 {
+                            font-weight: 450;
+                        }
+                        .star {
+                            img {}
+                        }
+                    }
+                }
+                p {
+                    margin-top: 20px;
+                    color: $secondary-color;
+                    font-size: 16px;
+                    line-height: 26px;
+                }
+            }
+            .flex-item1 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item2 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item3 {
+                border-radius: 20px 20px 20px 20px;
+            }
+        }
+    }
+}
+
+// ---for screen size 420-------
+@media only screen and (max-width:420px) {
+    .customer {
+        background-image: linear-gradient(95.69deg, #006CFF 3.55%, #04FF86 67.41%);
+        margin: 100px 0px 100px 0px;
+        padding: 10px 0px 100px 0px;
+        h1 {
+            font-size: 25px;
+            text-align: center;
+            color: white;
+            font-weight: 450;
+            padding: 50px 0px 50px 0px;
+        }
+        .customer-flex-container {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            align-items: center;
+            gap: 30px;
+            .customer-flex-item {
+                padding: 20px 20px 20px 20px;
+                background-color: white;
+                width: 250px;
+                .flex-inner {
+                    display: flex;
+                    align-items: center;
+                    .img {
+                        margin-right: 20px;
+                        img {}
+                    }
+                    .content {
+                        h3 {
+                            font-weight: 450;
+                        }
+                        .star {
+                            img {}
+                        }
+                    }
+                }
+                p {
+                    margin-top: 13px;
+                    color: $secondary-color;
+                    font-size: 16px;
+                    line-height: 20px;
+                }
+            }
+            .flex-item1 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item2 {
+                border-radius: 20px 20px 20px 20px;
+            }
+            .flex-item3 {
+                border-radius: 20px 20px 20px 20px;
+            }
+        }
+    }
+}

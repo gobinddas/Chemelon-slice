@@ -1,0 +1,264 @@
+header {
+    background-color: #F6F9FE;
+    display: flex;
+    justify-content: center;
+    .inner-layout {
+        width: 80%;
+        .navbar {
+            display: flex;
+            padding: 20px 0px 20px 0px;
+            justify-content: space-between;
+            align-items: center;
+            .logo {
+                width: 140px;
+                img {
+                    width: 100%;
+                }
+            }
+            .nav {
+                width: 40%;
+                display: flex;
+                justify-content: space-around;
+                align-items: center;
+                .nav-items {
+                    a {
+                        font-size: 18px;
+                        text-decoration: none;
+                        color: $primary-color;
+                    }
+                }
+                button {
+                    font-size: 18px;
+                    color: white;
+                    border: none;
+                    padding: 10px 20px 10px 20px;
+                    border-radius: 10px;
+                    background-image: linear-gradient(to right, #04FF86, #006CFF);
+                }
+            }
+            .menu {
+                display: none;
+                i {
+                    font-size: 40px;
+                    background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 1440-------
+@media only screen and (max-width:1440px) {
+    header {
+        background-color: #F6F9FE;
+        display: flex;
+        justify-content: center;
+        .inner-layout {
+            width: 80%;
+            .navbar {
+                display: flex;
+                padding: 20px 0px 20px 0px;
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 88px;
+                    }
+                }
+                .nav {
+                    width: 50%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .nav-items {
+                        a {
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: $primary-color;
+                        }
+                    }
+                    button {
+                        font-size: 16px;
+                        color: white;
+                        border: none;
+                        padding: 10px 20px 10px 20px;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .menu {
+                    display: none;
+                    i {
+                        font-size: 40px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 1100-------
+@media only screen and (max-width:1100px) {
+    header {
+        background-color: #F6F9FE;
+        display: flex;
+        justify-content: center;
+        .inner-layout {
+            width: 80%;
+            .navbar {
+                display: flex;
+                padding: 20px 0px 20px 0px;
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 88px;
+                    }
+                }
+                .nav {
+                    width: 55%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    .nav-items {
+                        a {
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: $primary-color;
+                        }
+                    }
+                    button {
+                        font-size: 16px;
+                        color: white;
+                        border: none;
+                        padding: 8px 15px 8px 15px;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .menu {
+                    display: none;
+                    i {
+                        font-size: 40px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 950-------
+@media only screen and (max-width:950px) {
+    header {
+        background-color: #F6F9FE;
+        display: flex;
+        justify-content: center;
+        .inner-layout {
+            width: 80%;
+            .navbar {
+                display: flex;
+                padding: 20px 0px 20px 0px;
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 88px;
+                    }
+                }
+                .nav {
+                    width: 55%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    display: none;
+                    .nav-items {
+                        a {
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: $primary-color;
+                        }
+                    }
+                    button {
+                        font-size: 16px;
+                        color: white;
+                        border: none;
+                        padding: 8px 15px 8px 15px;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .menu {
+                    display: contents;
+                    i {
+                        font-size: 50px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
+
+// ---for screen size 550-------
+@media only screen and (max-width:550px) {
+    header {
+        background-color: #F6F9FE;
+        display: flex;
+        justify-content: center;
+        .inner-layout {
+            width: 80%;
+            .navbar {
+                display: flex;
+                padding: 10px 0px 10px 0px;
+                justify-content: space-between;
+                align-items: center;
+                .logo {
+                    img {
+                        width: 68px;
+                    }
+                }
+                .nav {
+                    width: 55%;
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    display: none;
+                    .nav-items {
+                        a {
+                            font-size: 16px;
+                            text-decoration: none;
+                            color: $primary-color;
+                        }
+                    }
+                    button {
+                        font-size: 16px;
+                        color: white;
+                        border: none;
+                        padding: 8px 15px 8px 15px;
+                        border-radius: 10px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                    }
+                }
+                .menu {
+                    display: contents;
+                    i {
+                        font-size: 35px;
+                        background-image: linear-gradient(to right, #04FF86, #006CFF);
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                    }
+                }
+            }
+        }
+    }
+}
